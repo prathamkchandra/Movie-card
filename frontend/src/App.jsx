@@ -1,4 +1,4 @@
-import "./App.css";
+import "./css/App.css";
 import Navbar from "./components/Navbar";
 import Favorite from "./pages/Favorite";
 import Home from "./pages/Home";
@@ -11,7 +11,7 @@ function App() {
        <main className="main-content">
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/favorite" element={<Favorite />} />
+      <Route path="/favorites" element={<Favorite />} />
     </Routes>
   </main>
   </div>
