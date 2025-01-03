@@ -20,6 +20,5 @@ function Moviecard({movie}) {
     <p>{movie.release_date}</p>
 </div>
  </div>
-
 }
 export default Moviecard
